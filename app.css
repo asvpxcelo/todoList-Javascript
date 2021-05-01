@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Antonio', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    height: 460px;
+    width: 450px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 3px 8px lightcyan;
+    transition: 4.s;
+}
+
+h1 {
+    margin: 13px;
+}
+
+.myInput {
+    border: 1px solid;
+    color: #000;
+    width: 65%;
+    box-shadow: 0 3px 3px;
+    margin: 12px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.addTask {
+    padding: 0 13px;
+    margin: 6px;
+    background-color: lightpink;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #f2f2f2;
+}
+
+.addTask:hover {
+    background-color: lightskyblue;
+}
+
+.collection {
+    list-style: none;
+    margin: 12px 0;
+    height: 550px;
+    overflow: auto;
+    transition: .4s;
+}
+
+.element {
+    height: 550px;
+    overflow-y: hidden;
+}
+
+ul {
+    padding: 15px;
+}
+
+li {
+    padding: 10px 5px;
+    background-color: #f2f2f2;
+    margin: 12px 0;
+    list-style: none;
+    box-shadow: 0 3x 3px #e0e0e0;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
